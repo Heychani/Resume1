@@ -1,10 +1,23 @@
+
+
 body{
-  font-family: sans-serif;
+  color: black;
+  font-family:'Lucida Sans Unicode';
   font-size:110%;
-  background-color: #FCF7F8;
+  background-color: lightgray;
+}
+
+h1, h2 {
+  font: bold; color: white;
+  background-color: gray;
+}
+
+h3 {
+  color: goldenrod;
 }
 
 header {
+  font: white;
   text-align: center;
 }
 
@@ -15,8 +28,7 @@ header {
 }
 
 #section{
-  background-color: green;
-  width: 20%
+  background-color: lightgray;
 }
 
 .icons{
@@ -25,7 +37,7 @@ header {
 }
 
 footer {
-  background-color: gray;
+  background-color: grey;
   color: white;
   text-align: center;
 }
