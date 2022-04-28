@@ -8,7 +8,24 @@ header {
   text-align: center;
 }
 
+#heading{
+  font-family: sans-serif;
+  font-size: 110%;
+  background-color: gray;
+}
+
+#section{
+  background-color: green;
+  width: 20%
+}
+
+.icons{
+  align-content: stretch;
+  align-items: baseline;
+}
+
 footer {
-  background-color: #343330;
+  background-color: gray;
+  color: white;
   text-align: center;
 }
