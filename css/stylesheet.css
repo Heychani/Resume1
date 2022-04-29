@@ -1,3 +1,9 @@
+.main{
+  display: flex;
+  flex-direction: row;
+  overflow: unset;
+}
+
 #ProfilePicture{
   width: 25%;
   height: 25%;
@@ -7,55 +13,59 @@
 }
 
 header {
-  font: white;
+  justify-content: center;
   text-align: center;
 }
 
 #heading{
   font-family: sans-serif;
+  padding: 1rem;
   font-size: 110%;
-  border: 4px goldenrod;
-  border-style: groove;
-  border-radius: 2mm;
-  background-color: gray;
+  background-color: #343330;
 }
 
 h1{
   color: white;
 }
 
-li{
-  list-style: circle;
+#section{
+  font: white;
+  width: 20%;
+  display: block;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  background-color: #45462a;
+}
+
+.nav-menu{
+  list-style-type: none;
+  padding: 0;
+  color: white;
+}
+
+#article{
+  width: 80%;
+  padding: 1rem;
+  margin: 1rem;
 }
 
 body{
-  color: black;
-  font-family:'Lucida Sans Unicode';
+  font-family: sans-serif;
   font-size:110%;
-  background-color: wheat;
-  margin: 2cm;
-  font-size: 18px;
+  background-color: white;
+
 }
 
 h2 {
   font: bold; 
   size: 24px;
-  color: white;
-  background-color: gray;
-  padding: 1rem;
-  text-align: center;
-  border-radius: 2mm;
-  border-width: 1mm;
-  border-color: goldenrod;
-  border-style: groove;
+  color: black;
 }
 
 h3 {
-  color: goldenrod;
-}
-
-#section{
-  background-color: wheat;
+  color: black;
 }
 
 .icons{
@@ -67,11 +77,11 @@ h3 {
 }
 
 footer {
-  background-color: grey;
+  padding: 1rem;
+  justify-content: center;
+  background-color: #343330;
   background-size: 5in;
   color: white;
   text-align: center;
   font-size: x-large;
-  border-radius: 2mm;
-  border: 4px groove goldenrod;
 }
